@@ -132,16 +132,16 @@
     }
 }
 
-//- (void)onPause
-//{
+- (void)onPause
+{
 //    [self.internetReach stopNotifier];
-//}
+}
 
-//- (void)onResume
-//{
+- (void)onResume
+{
 //    [self.internetReach startNotifier];
 //    [self updateReachability:self.internetReach];
-//}
+}
 
 - (void)pluginInitialize
 {
